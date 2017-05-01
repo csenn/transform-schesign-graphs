@@ -1,6 +1,12 @@
 import { last, isArray } from 'lodash'
 import data from './dataelement.json'
-import { Design, ClassNode, PropertyNode, rangeTypes } from '../../../schesign-js-graph-utils/src'
+import {
+  Design,
+  ClassNode,
+  PropertyNode
+} from '../../../schesign-js-graph-utils/design'
+import * as rangeTypes from '../../../schesign-js-graph-utils/src/rangeTypes'
+
 
 const unknown = {}
 const hasMultipleTypes = {}
